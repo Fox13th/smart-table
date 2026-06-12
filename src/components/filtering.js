@@ -25,7 +25,7 @@ export function initFiltering(elements, indexes) {
                 if (input) {
                     input.value = '';
                 }
-
+                
                 console.log(state[fieldName]);
                 if (fieldName && state[fieldName] !== undefined) {
                     state[fieldName] = '';
