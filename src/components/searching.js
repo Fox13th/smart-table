@@ -17,7 +17,6 @@ export function initSearching(searchField) {
             return data;
         }
        
-
         return data.filter(item => compare(item, state));
     }
 }
